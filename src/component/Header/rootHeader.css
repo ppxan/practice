@@ -2,10 +2,11 @@
     position: fixed;
     width: 100%;
     height: 9%;
-    margin-top: 0;
+    top: 0;
     font-family: "Microsoft YaHei UI";
     font-size: 14px;
-    background-color:#fbeed5;
+    background-color:#c3b295;
+    z-index: 999;
 }
 .page-header-title{
     font-size: 18px;
@@ -24,10 +25,12 @@ img{
     position: relative;
     font-weight: 500;
     font-size: 18px;
+    color:#fff;
 }
 td, th {
     display: table-cell;
     vertical-align: inherit;
+    padding-right: 80px;
 }
 .search-img{
     width: 10px;
@@ -42,10 +45,33 @@ td, th {
     top: 0;
     right: 0;
 }
-
-.second-td{
-    margin-left: 50px;
+.page-header-search{
+    display: flex;
+    height: 30px;
+}
+.search-div{
+    border: none;
+    padding-right: 20px;
+    line-height: 30px;
+    display: flex;
+    font-size: 13px;
+    color: #c0b298;
+    font-family: "Microsoft YaHei";
+    background-color: #fff;
+}
+button{
+    background-color: white;
+    border:0;
 }
 .second-td-input{
-
+    border: none;
+    padding: 0;
+    font-size: 13px;
+    color:#ccc;
+}
+.icon{
+    width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;
+}
+select{
+    border:none;
 }

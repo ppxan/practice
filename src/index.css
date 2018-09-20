@@ -3,3 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.pie-title{
+  position: absolute;
+  font-size: 18px;
+  width:50%;
+  height:10%;
+  color:rgba(0,0,0,.65);
+}
